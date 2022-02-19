@@ -36,6 +36,7 @@ export { NglrxStringPipesModule } from './string/nglrx-string-pipes.module';
 export { CamelCasePipe } from './string/camel-case/camel-case.pipe';
 export { CharAtPipe } from './string/char-at/char-at.pipe';
 export { ConcatPipe } from './string/concat/concat.pipe';
+export { HighPrecDurationPipe } from './string/highprec-duration/highprec-duration.pipe';
 export { InterpolatePipe } from './string/interpolate/interpolate.pipe';
 export { LowerCasePipe } from './string/lower-case/lower-case.pipe';
 export { PadEndPipe } from './string/pad-end/pad-end.pipe';

@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { CamelCasePipe } from './camel-case/camel-case.pipe';
 import { CharAtPipe } from './char-at/char-at.pipe';
 import { ConcatPipe } from './concat/concat.pipe';
+import { HighPrecDurationPipe } from './highprec-duration//highprec-duration.pipe';
 import { InterpolatePipe } from './interpolate/interpolate.pipe';
 import { LowerCasePipe } from './lower-case/lower-case.pipe';
 import { PadEndPipe } from './pad-end/pad-end.pipe';
@@ -23,6 +24,7 @@ const STRING_PIPES = [
   CamelCasePipe,
   CharAtPipe,
   ConcatPipe,
+  HighPrecDurationPipe,
   InterpolatePipe,
   LowerCasePipe,
   PadEndPipe,
