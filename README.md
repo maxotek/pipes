@@ -1,22 +1,22 @@
-![npm](https://img.shields.io/npm/v/@nglrx/pipes?label=npm)
+![npm](https://img.shields.io/npm/v/@maxotek/pipes?label=npm)
 ![GitHub last commit](https://img.shields.io/github/last-commit/nglrx/pipes)
-![Libraries.io dependency status for latest release, scoped npm package](https://img.shields.io/librariesio/release/npm/@nglrx/pipes)
+![Libraries.io dependency status for latest release, scoped npm package](https://img.shields.io/librariesio/release/npm/@maxotek/pipes)
 [![Build Status](https://travis-ci.org/nglrx/pipes.svg?branch=master)](https://travis-ci.org/nglrx/pipes)
 [![codecov](https://codecov.io/gh/nglrx/pipes/branch/master/graph/badge.svg)](https://codecov.io/gh/nglrx/pipes)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=nglrx_pipes&metric=alert_status)](https://sonarcloud.io/dashboard?id=nglrx_pipes)
-![npm](https://img.shields.io/npm/dm/@nglrx/pipes)
+![npm](https://img.shields.io/npm/dm/@maxotek/pipes)
 ![GitHub](https://img.shields.io/github/license/nglrx/pipes?color=blue)
 
-# @nglrx/pipes
+# @maxotek/pipes
 
 A library of pipes for Angular apps.
 
 ## Installation
 
-Use [npm](https://www.npmjs.com/) to install @nglrx/pipes.
+Use [npm](https://www.npmjs.com/) to install @maxotek/pipes.
 
 ```bash
-npm i @nglrx/pipes
+npm i @maxotek/pipes
 ```
 
 ## Import Module
@@ -24,7 +24,7 @@ npm i @nglrx/pipes
 Import module `NglrxPipesModule` to your module for using all pipes.
 
 ```typescript
-import { NglrxPipesModule } from '@nglrx/pipes';
+import { NglrxPipesModule } from '@maxotek/pipes';
 
 @NgModule({
   //...
@@ -56,7 +56,7 @@ They can also be *chained*
 Or they can be used within *components* or *services* by calling the `transform` method
 
 ```typescript
-import { LengthPipe } from '@nglrx/pipes';
+import { LengthPipe } from '@maxotek/pipes';
 
 @Component({
   providers: [ LengthPipe ]
