@@ -47,6 +47,7 @@ export { SentenceCasePipe } from './string/sentence-case/sentence-case.pipe';
 export { SplitPipe } from './string/split/split.pipe';
 export { SlugifyPipe } from './string/slugify/slugify.pipe';
 export { TitleCasePipe } from './string/title-case/title-case.pipe';
+export { TitleizePipe } from './string/titleize/titleize.pipe';
 export { TrimPipe } from './string/trim/trim.pipe';
 export { TrimLeftPipe } from './string/trim-left/trim-left.pipe';
 export { TrimRightPipe } from './string/trim-right/trim-right.pipe';

@@ -1,9 +1,10 @@
 {
   "name": "@maxotek/pipes",
-  "version": "0.8.1",
+  "version": "0.8.5",
   "author": "Kapil Neurgaonkar,Partho Sarathi",
   "description": "A library of useful pipes for Angular apps.",
   "license": "MIT",
+  "private": false,
   "repository": {
     "type": "git",
     "url": "https://github.com/nglrx/pipes.git"

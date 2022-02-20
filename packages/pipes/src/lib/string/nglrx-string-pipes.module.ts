@@ -19,6 +19,7 @@ import { TrimLeftPipe } from './trim-left/trim-left.pipe';
 import { TrimRightPipe } from './trim-right/trim-right.pipe';
 import { TruncatePipe } from './truncate/truncate.pipe';
 import { UpperCasePipe } from './upper-case/upper-case.pipe';
+import { TitleizePipe } from './titleize/titleize.pipe';
 
 const STRING_PIPES = [
   CamelCasePipe,
@@ -35,6 +36,7 @@ const STRING_PIPES = [
   SlugifyPipe,
   SplitPipe,
   TitleCasePipe,
+  TitleizePipe,
   TrimPipe,
   TrimLeftPipe,
   TrimRightPipe,
