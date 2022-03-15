@@ -1,6 +1,6 @@
 {
   "name": "@maxotek/pipes",
-  "version": "0.8.6",
+  "version": "0.8.7",
   "author": "Kapil Neurgaonkar,Partho Sarathi",
   "description": "A library of useful pipes for Angular apps.",
   "license": "MIT",
@@ -26,6 +26,8 @@
     "start": "ng serve",
     "build": "ng build",
     "build:prod": "ng build --configuration production",
+    "prepublish": "npm run build:prod",
+    "publish": "cd dist/pipes && npm publish",
     "test:chrome": "ng test --browsers=ChromeHeadlessNoSandbox --codeCoverage=true --watch=false",
     "test:edge": "ng test --browsers=EdgeHeadless --code-coverage --no-watch",
     "test": "npm run test:edge",
